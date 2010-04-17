@@ -41,6 +41,9 @@
     <Compile Include="Program.fs" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="Enyim.Caching">
+      <HintPath>..\lib\Enyim.Caching.dll</HintPath>
+    </Reference>
     <Reference Include="log4net">
       <HintPath>C:\Users\dmohl.SOMMET\Documents\Visual Studio 2010\Projects\SymbioteDemo\lib\log4net.dll</HintPath>
     </Reference>
@@ -55,27 +58,33 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>C:\Users\dmohl.SOMMET\Documents\Visual Studio 2010\Projects\SymbioteDemo\lib\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="RabbitMQ.Client">
+      <HintPath>..\lib\RabbitMQ.Client.dll</HintPath>
+    </Reference>
     <Reference Include="StructureMap">
       <HintPath>C:\Users\dmohl.SOMMET\Documents\Visual Studio 2010\Projects\SymbioteDemo\lib\StructureMap.dll</HintPath>
     </Reference>
     <Reference Include="Symbiote.Core">
-      <HintPath>C:\Users\dmohl.SOMMET\Documents\Visual Studio 2010\Projects\SymbioteDemo\lib\Symbiote.Core.dll</HintPath>
+      <HintPath>..\lib\Symbiote.Core.dll</HintPath>
     </Reference>
     <Reference Include="Symbiote.Daemon">
-      <HintPath>C:\Users\dmohl.SOMMET\Documents\Visual Studio 2010\Projects\SymbioteDemo\lib\Symbiote.Daemon.dll</HintPath>
+      <HintPath>..\lib\Symbiote.Daemon.dll</HintPath>
     </Reference>
     <Reference Include="Symbiote.Eidetic">
-      <HintPath>C:\Users\dmohl.SOMMET\Documents\Visual Studio 2010\Projects\SymbioteDemo\lib\Symbiote.Eidetic.dll</HintPath>
+      <HintPath>..\lib\Symbiote.Eidetic.dll</HintPath>
+    </Reference>
+    <Reference Include="Symbiote.Jackalope">
+      <HintPath>..\lib\Symbiote.Jackalope.dll</HintPath>
     </Reference>
     <Reference Include="Symbiote.Relax">
-      <HintPath>C:\Users\dmohl.SOMMET\Documents\Visual Studio 2010\Projects\SymbioteDemo\lib\Symbiote.Relax.dll</HintPath>
+      <HintPath>..\lib\Symbiote.Relax.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Numerics" />
     <Reference Include="System.Xml" />
     <Reference Include="Topshelf">
-      <HintPath>C:\Users\dmohl.SOMMET\Documents\Visual Studio 2010\Projects\SymbioteDemo\lib\Topshelf.dll</HintPath>
+      <HintPath>..\lib\Topshelf.dll</HintPath>
     </Reference>
   </ItemGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
